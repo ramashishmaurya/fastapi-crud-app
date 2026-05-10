@@ -13,5 +13,5 @@ class Book(BookBase):
     id :int 
 
     class config:
-        from_attribute = True
+         model_config = {"from_attributes": True}
         
