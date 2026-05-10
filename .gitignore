@@ -1,2 +1,4 @@
-.lang 
-/lang
+.venv 
+/venv
+
+__pycache__
