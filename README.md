@@ -38,4 +38,4 @@ A RESTful CRUD API built using FastAPI, SQLAlchemy, and PostgreSQL for managing 
 Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone <https://github.com/ramashishmaurya/fastapi-crud-app.git>
