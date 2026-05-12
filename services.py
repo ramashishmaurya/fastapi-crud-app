@@ -7,7 +7,7 @@ def create_book(db :session , data:CreatBook):
     db.add(book_instance)
     db.commit()
     db.refresh(book_instance)
-    return book_instance
+    return book_instance 
 
 def get_books(db:session): 
     return db.query(Book).all()
@@ -30,7 +30,6 @@ def delete_book(db:session , id:int):
         db.delete(book_queryset)
         db.commit()
     return book_queryset
-
 
 
 
